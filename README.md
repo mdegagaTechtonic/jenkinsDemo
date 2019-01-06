@@ -12,7 +12,7 @@
     a. In the download directory in terminal paste: "/usr/libexec/java_home -V"
     b. That will show the versions of java on your machine
     c. Can check the current default java version with: "java -version"
-    d. Paste, export "JAVA_HOME=`/usr/libexec/java_home -v 1.8.0_192`"
+    d. Paste, "export JAVA_HOME=`/usr/libexec/java_home -v 1.8.0_192`"
     e. Ensure it changed with: "java -version"
  
   4. Run ```java -jar jenkins.war --httpPort=8080``` 
